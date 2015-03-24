@@ -1,0 +1,7 @@
+{
+  "data" : [
+    {"value": 1, "text" : "UK"},
+    {"value": 2, "text" : "INDIA"},
+    {"value": 3, "text" : "AUSTRALIA"}
+  ]
+}

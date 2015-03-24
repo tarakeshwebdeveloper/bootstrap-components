@@ -1,0 +1,71 @@
+.select .list{
+    display: none;
+    text-align: left;
+
+}
+.select .list div{
+
+}
+.select .selector{
+    width: 100%;
+    background-color:#ffffff;
+}
+
+.select .selector ~ span, .select .search ~ span{
+    position: absolute;
+    right: 25px;
+    margin-top: 10px;
+}
+
+.select .search{
+    position: absolute;
+    width: 92%;
+    border-top:none;
+    border-radius :0;
+}
+
+.select .search ~ ul{
+    margin-top:34px;
+    border-top:none;
+    border-radius: 0 0 5px 5px;
+}
+
+/*.select .search ~ span{
+    position: absolute;
+    right: 25px;
+    margin-top: 10px;
+}*/
+
+.select ul {
+    padding:5px 0 5px 0;
+    margin:0;
+    list-style-type: none;
+    background-color:white;
+    border:solid 1px silver;
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    width: 92%;
+    z-index: 300001;
+}
+.select ul li{
+    padding:15px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.select ul li:hover{
+    background-color:#FAFAFA;
+}
+
+.select.small .selector{
+    height:25px;
+}
+.select.small ul {
+    padding:2px;
+}
+.select.small ul li {
+    padding:5px;
+}
+.select.small .selector ~ span, .select.small .search ~ span{
+ margin-top:6px;
+}
